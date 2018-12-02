@@ -23,5 +23,5 @@ bool UEntryUserWidget::Initialize()
 
 void UEntryUserWidget::OnClickStartButton()
 {
-
+	GetWorld()->ServerTravel(FString("/Game/Maps/ShooterMap001"));
 }
