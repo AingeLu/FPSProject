@@ -7,7 +7,7 @@
 AEntryGameMode::AEntryGameMode(const FObjectInitializer& ObjectInitializer)
 	:Super(ObjectInitializer)
 {
-	HUDClass = AGameHUD::StaticClass();
+	//HUDClass = AGameHUD::StaticClass();
 	PlayerControllerClass = AEntryPlayerController::StaticClass();
 }
 
