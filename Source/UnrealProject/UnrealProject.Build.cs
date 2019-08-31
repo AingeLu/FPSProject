@@ -20,7 +20,6 @@ public class UnrealProject : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[]
         {
-            "slua_unreal",
             "Slate",
             "SlateCore",
             "UMG"
@@ -28,12 +27,12 @@ public class UnrealProject : ModuleRules
 
         PublicIncludePathModuleNames.AddRange(new string[]
         {
-            "slua_unreal"
+
         });
 
         PrivateIncludePathModuleNames.AddRange(new string[]
         {
-            "slua_unreal"
+
         });
         
         // Uncomment if you are using Slate UI
@@ -46,11 +45,7 @@ public class UnrealProject : ModuleRules
 
         PrivateIncludePaths.AddRange(new string[]
         {
-            "UnrealProject/Lua",
-            "UnrealProject/Maps",
-            "UnrealProject/Player",
-            "UnrealProject/UI",
-            "UnrealProject/UI/Entry",
+ 
         });
     }
 }
